@@ -4,8 +4,15 @@ Generates RocketBook QR Numerated Pages in a PDF depending on the quantity of pa
 ## Installation
 It has been tested in python3 only.
 ```bash
+
 git clone https://github.com/FranciscodeMaussion/RocketBookPages
 cd RocketBookPages
+
+python3 -m venv rocketbook_env
+
+source rocketbook_env/bin/activate
+pip install -r requirements.txt
+
 pip install --editable .
 ```
 
